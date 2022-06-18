@@ -19,6 +19,8 @@
 		9E1E2F2B285E0E0A00ADFAFF /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1E2F2A285E0E0A00ADFAFF /* PreviewData.swift */; };
 		9E1E2F2D285E0ECC00ADFAFF /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1E2F2C285E0ECC00ADFAFF /* TransactionRow.swift */; };
 		9E1E2F30285E139E00ADFAFF /* SwiftUIFontIcon in Frameworks */ = {isa = PBXBuildFile; productRef = 9E1E2F2F285E139E00ADFAFF /* SwiftUIFontIcon */; };
+		9E1E2F32285E14DF00ADFAFF /* TransactionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1E2F31285E14DF00ADFAFF /* TransactionListViewModel.swift */; };
+		9E1E2F34285E18F700ADFAFF /* RecentTransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1E2F33285E18F700ADFAFF /* RecentTransactionList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		9E1E2F28285E0D2000ADFAFF /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
 		9E1E2F2A285E0E0A00ADFAFF /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 		9E1E2F2C285E0ECC00ADFAFF /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
+		9E1E2F31285E14DF00ADFAFF /* TransactionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewModel.swift; sourceTree = "<group>"; };
+		9E1E2F33285E18F700ADFAFF /* RecentTransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTransactionList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +111,11 @@
 				9E1E2EFC285E08F100ADFAFF /* ExpenseTrackerApp.swift */,
 				9E1E2EFE285E08F100ADFAFF /* ContentView.swift */,
 				9E1E2F2C285E0ECC00ADFAFF /* TransactionRow.swift */,
+				9E1E2F28285E0D2000ADFAFF /* TransactionModel.swift */,
+				9E1E2F31285E14DF00ADFAFF /* TransactionListViewModel.swift */,
+				9E1E2F33285E18F700ADFAFF /* RecentTransactionList.swift */,
 				9E1E2F26285E0AFE00ADFAFF /* Extensions.swift */,
 				9E1E2F00285E08F300ADFAFF /* Assets.xcassets */,
-				9E1E2F28285E0D2000ADFAFF /* TransactionModel.swift */,
 				9E1E2F02285E08F300ADFAFF /* Preview Content */,
 			);
 			path = ExpenseTracker;
@@ -278,10 +284,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E1E2F2B285E0E0A00ADFAFF /* PreviewData.swift in Sources */,
+				9E1E2F34285E18F700ADFAFF /* RecentTransactionList.swift in Sources */,
 				9E1E2F29285E0D2000ADFAFF /* TransactionModel.swift in Sources */,
 				9E1E2EFF285E08F100ADFAFF /* ContentView.swift in Sources */,
 				9E1E2F2D285E0ECC00ADFAFF /* TransactionRow.swift in Sources */,
 				9E1E2F27285E0AFE00ADFAFF /* Extensions.swift in Sources */,
+				9E1E2F32285E14DF00ADFAFF /* TransactionListViewModel.swift in Sources */,
 				9E1E2EFD285E08F100ADFAFF /* ExpenseTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
